@@ -113,15 +113,50 @@ CSS rule { word-spacing: 1rem; }
 `CANVAS` – The canvas rendering context provides two methods to render text.
 
 `fillText` – draws a text string at the specified, filling the string’s characters with the current fillStyle.
+```javascript
+function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  ctx.font = '48px serif';
+  ctx.fillText('Hello world', 10, 50);
+}
+```
 
 `strokeText` – Draws the outlines of – the characters of a text string at the specified coordinates.
-Styling Text
+```javascript
+function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  ctx.font = '48px serif';
+  ctx.strokeText('Hello world', 10, 50);
+}
+```
+
+  #### Styling Text
 -	Font
+```javascript
+ctx.font = value;
+```
 -	textAlign
+```javascript
+ctx.textAlign = "left" || "right" || "center" || "start" || "end";
+```
 -	textBaseline
--	direction
+```javascript
+ctx.textBaseline = "top" || "hanging" || "middle" || "alphabetic" || "ideographic" || "bottom";
+```
+-	direction (*Experimental*)
+```javascript
+ctx.direction = "ltr" || "rtl" || "inherit";
+```
 
 `measureText` – Returns a TextMetrics object containing the width, in pixels, that the specified text will be when drawn in the current text style. (read only)
+```javascript
+function draw() {
+  var ctx = document.getElementById('canvas').getContext('2d');
+  var text = ctx.measureText('foo'); // TextMetrics object
+  text.width; // 16;
+}
+
+```
 
 ## Source
 [Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/ ), GCF LearnFree.org
