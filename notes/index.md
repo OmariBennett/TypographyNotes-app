@@ -1,4 +1,7 @@
 # Typography Notes
+`Typography`
+- – style or appearance of text,
+- – the art of working with text.
 
 ## Terminology
 ### The Anatomy of a Typeface
@@ -39,10 +42,32 @@
 `X-height` - Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)
 
 ### Common Font Classification Types
+`Serif` – fonts have little strokes called serifs attached to the main part of the letter. _*_ Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.
 
+`San serif` – fonts do not have that extra stroke-hence the name, which is French for “without serif”. _*_ This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.
 
+`Display` – Because of their decorative nature, display fonts are best for small amounts of text; for example, title and herders, and more graphic-heavy designs.
+-	Script
+-	Blackletter
+-	All-caps
+-	Plain Fancy
+- _*_ When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.
 
 ## Typography Essentials
+`Using letter as form` – Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit.
+
+`Using counter spaces as form` – The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements. *Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure.
+
+`Letterform details` – Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message.
+
+`Emotional content implied by the text` – Letterforms can amplify the emotional weight of the text. *The delicate tracery of a flowing italic might best convey a poem about nature.
+
+`Historical connotation` – typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible.
+
+`Vertical Rhythm` – Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size.
+
+## Typography Code Basics Essentials
+### CSS
 `Kerning` – is the space between specific characters. *Some fonts have what we call bad kerning, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else.
 ```css
 CSS rule { letter-spacing: 1rem; }
@@ -57,8 +82,46 @@ CSS rule { line-height: 1.2; }
 ```css
 CSS rule { word-spacing: 1rem; }
 ```
+### SVG
+`SVG` - An essential part of a text is the font in which it is displayed. SVG offers a set of attributes, many like their CSS counterparts, to enable font selection.
+```html
+<text x="10" y="10">Hello World!</text>
+```
 
-## Typography Code Basics Essentials
+`Text-Anchor` – An attribute is used to align (stat-, middle-, or end-alignment) a string of pre-formatted text or auto-wrapped text where the wrapping area is determined from the inline-size property relative to a given point.
+
+`Dominant-Baseline` – An attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents.
+
+`Tspan` – element has the following custom attributes.
+```html
+<text>
+  This is <tspan font-weight="bold" fill="red">bold and red<tspan>
+</text>
+```
+
+`textPath` - This element fetches via its xlink:href attribute an arbitrary path and aligns the characters, that it encircles, along this path.
+```html
+<path id="my_path" d="M 20,20 C 80,60 100,40 120,20" fill="transparent" />
+<text>
+  <textPath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#my_path">
+    A curve.
+  </textPath>
+</text>
+```
+
+### HTML Canvas
+`CANVAS` – The canvas rendering context provides two methods to render text.
+
+`fillText` – draws a text string at the specified, filling the string’s characters with the current fillStyle.
+
+`strokeText` – Draws the outlines of – the characters of a text string at the specified coordinates.
+Styling Text
+-	Font
+-	textAlign
+-	textBaseline
+-	direction
+
+`measureText` – Returns a TextMetrics object containing the width, in pixels, that the specified text will be when drawn in the current text style. (read only)
 
 ## Source
 [Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/ ), GCF LearnFree.org
