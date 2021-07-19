@@ -2,37 +2,61 @@
 
 ## Terminology
 ### The Anatomy of a Typeface
-`Ascender`: The portion of a letter that extends above the mean line of a font -- i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)
+`Ascender` - The portion of a letter that extends above the mean line of a font -- i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)
 
-`Baseline`: The line where the letters sit.
+`Baseline` - The line where the letters sit.
 
-`Bowl`: The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’. (In the case, it is that round shape sticking off the letter ‘a’.)
+`Bowl` - The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’. (In the case, it is that round shape sticking off the letter ‘a’.)
 
-`Cap height`: The distance from the baseline to the top of the capital letter.
+`Cap height` - The distance from the baseline to the top of the capital letter.
 
-`Cross` bar: The bar that goes across the inside of the letter and connects one side to another. (In this case, it is the bar inside the capital letter 'B’.)
+`Cross` bar - The bar that goes across the inside of the letter and connects one side to another. (In this case, it is the bar inside the capital letter 'B’.)
 
-`Counter`: The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’.
+`Counter` - The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’.
 
-`Descender`: The longest point on a letter that falls beyond the baseline.
+`Descender` - The longest point on a letter that falls beyond the baseline.
 
-`Finial`: The tapered end of letters such as ‘e’ or ‘c’.
+`Finial` - The tapered end of letters such as ‘e’ or ‘c’.
 
-`Ligature`: The stroke that joins adjacent letters.
+`Hierarchy` – is used to guide the reader’s eye to whatever is most important. In other words, it shows them where to begin and where to go next using different levels of emphasis.
 
-`Serif`: The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.)
+`Kerning` – is the space between specific characters. *Some fonts have what we call bad kerning, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else.
 
-`Spine`: The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface.
+`Leading` – is the space between lines of text, also known as line spacing.
 
-`Stem`: The base of a letter, like the stem of a flower.
+`Ligature` - The stroke that joins adjacent letters.
 
-`Terminal`: A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’.
+`Serif` - The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.)
 
-`X-height`: Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)
+`Spine` - The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface.
+
+`Stem` - The base of a letter, like the stem of a flower.
+
+`Tracking` – is the overall space between characters, sometimes called character spacing.
+
+`Terminal` - A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’.
+
+`X-height` - Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)
 
 ### Common Font Classification Types
 
+
+
 ## Typography Essentials
+`Kerning` – is the space between specific characters. *Some fonts have what we call bad kerning, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else.
+```css
+CSS rule { letter-spacing: 1rem; }
+```
+
+`Leading` – is the space between lines of text, also known as line spacing.
+```css
+CSS rule { line-height: 1.2; }
+```
+
+`Tracking` – is the overall space between characters, sometimes called character spacing.
+```css
+CSS rule { word-spacing: 1rem; }
+```
 
 ## Typography Code Basics Essentials
 
