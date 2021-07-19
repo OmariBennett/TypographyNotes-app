@@ -1,0 +1,19 @@
+{
+  "name": "typographynotes-app",
+  "version": "1.0.0",
+  "description": "Basic Typography Notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmariBennett/TypographyNotes-app.git"
+  },
+  "author": "Omari Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmariBennett/TypographyNotes-app/issues"
+  },
+  "homepage": "https://github.com/OmariBennett/TypographyNotes-app#readme"
+}
