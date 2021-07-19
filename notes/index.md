@@ -87,10 +87,28 @@ CSS rule { word-spacing: 1rem; }
 ```html
 <text x="10" y="10">Hello World!</text>
 ```
+#### Setting font properties
+font-family:
+- font-style
+- font-weight
+- font-variant
+- font-stretch
+- font-size
+- font-size-adjust
+- kerning
+- letter-spacing
+- word-spacing
+- text-decoration
 
 `Text-Anchor` – An attribute is used to align (stat-, middle-, or end-alignment) a string of pre-formatted text or auto-wrapped text where the wrapping area is determined from the inline-size property relative to a given point.
+```html
+<text text-anchor="start" x="60" y="40">A</text>
+```
 
-`Dominant-Baseline` – An attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents.
+`Dominant-Baseline` – An attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents. (auto | text-bottom | alphabetic | ideographic | middle | central | mathematical | hanging | text-top)
+```html
+<text dominant-baseline="auto" x="30" y="20">Auto</text>
+```
 
 `Tspan` – element has the following custom attributes.
 ```html
@@ -98,15 +116,48 @@ CSS rule { word-spacing: 1rem; }
   This is <tspan font-weight="bold" fill="red">bold and red<tspan>
 </text>
 ```
+#### Attributes
+- `textPath` - This element fetches via its xlink:href attribute an arbitrary path and aligns the characters, that it encircles, along this path.
 
-`textPath` - This element fetches via its xlink:href attribute an arbitrary path and aligns the characters, that it encircles, along this path.
+- `href` - The URL to the path or basic shape on which to render the text. If the path attribute is set, href has no effect.
+    Value type: <URL> ; Default value: none; Animatable: yes
+
+- `lengthAdjust` - Where length adjustment should be applied to the text: the space between glyphs, or both the space and the glyphs themselves.
+    Value type: spacing|spacingAndGlyphs; Default value: spacing; Animatable: yes
+
+- `method` - Which method to render individual glyphs along the path.
+    Value type: align|stretch ; Default value: align; Animatable: yes
+
+- `path` - The path on which the text should be rendered.
+    Value type: <path_data> ; Default value: none; Animatable: yes
+
+- `side` - Which side of the path the text should be rendered.
+    Value type: left|right ; Default value: left; Animatable: yes
+
+- `spacing` - How space between glyphs should be handled.
+    Value type: auto|exact ; Default value: exact; Animatable: yes
+
+- `startOffset` - How far the beginning of the text should be offset from the beginning of the path.
+    Value type: <length>|<percentage>|<number> ; Default value: 0; Animatable: yes
+
+- `textLength` - The width of the space into which the text will render.
+    Value type: <length>|<percentage>|<number> ; Default value: auto; Animatable: yes 
 ```html
-<path id="my_path" d="M 20,20 C 80,60 100,40 120,20" fill="transparent" />
-<text>
-  <textPath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#my_path">
-    A curve.
-  </textPath>
-</text>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- to hide the path, it is usually wrapped in a <defs> element -->
+  <!-- <defs> -->
+  <path id="MyPath" fill="none" stroke="red"
+        d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50" />
+  <!-- </defs> -->
+
+  <text>
+    <textPath href="#MyPath">
+      Quick brown fox jumps over the lazy dog.
+    </textPath>
+  </text>
+
+</svg>
 ```
 
 ### HTML Canvas
