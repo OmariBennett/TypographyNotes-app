@@ -42,9 +42,7 @@
 `X-height` - Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)
 
 ### Common Font Classification Types
-`Serif` – fonts have little strokes called serifs attached to the main part of the letter. _*_ Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.
-
-`San serif` – fonts do not have that extra stroke-hence the name, which is French for “without serif”. _*_ This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.
+`Type Families` - “type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface.
 
 `Display` – Because of their decorative nature, display fonts are best for small amounts of text; for example, title and herders, and more graphic-heavy designs.
 -	Script
@@ -53,7 +51,9 @@
 -	Plain Fancy
 - _*_ When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.
 
-`Type Families` - “type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface.
+`San serif` – fonts do not have that extra stroke-hence the name, which is French for “without serif”. _*_ This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.
+
+`Serif` – fonts have little strokes called serifs attached to the main part of the letter. _*_ Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.
 
 ## Typography Essentials
 `Using letter as form` – Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit.
