@@ -53,6 +53,8 @@
 -	Plain Fancy
 - _*_ When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.
 
+`Type Families` - “type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface.
+
 ## Typography Essentials
 `Using letter as form` – Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit.
 
@@ -65,6 +67,8 @@
 `Historical connotation` – typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible.
 
 `Vertical Rhythm` – Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size.
+
+`Combining fonts` - When deciding which fonts to use, less is more. It's best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style. *You've probably heard that opposites attract.*
 
 ## Typography Code Basics Essentials
 ### CSS
@@ -211,6 +215,8 @@ function draw() {
 
 ## Source
 [Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/ ), GCF LearnFree.org
+
+[Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial), MDN Web Docs
 
 [SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial), MDN Web Docs
 
