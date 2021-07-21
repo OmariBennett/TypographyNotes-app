@@ -186,19 +186,38 @@ function draw() {
 ```
 
   #### Styling Text
--	Font
+-	`Font` - specifies the current text style to use when drawing text. This string uses the same syntax as the CSS font property. The default font is 10px sans-serif.  
+*Loading fonts with the CSS Font Loading API* - help of the FontFace API, you can explicitly load fonts before using them in a canvas.
 ```javascript
 ctx.font = value;
 ```
--	textAlign
+
+-	`textAlign` - specifies the current text alignment used when drawing text.
 ```javascript
 ctx.textAlign = "left" || "right" || "center" || "start" || "end";
 ```
--	textBaseline
+
+-	`textBaseline` - specifies the current text baseline used when drawing text.
+
+    - `top` - The text baseline is the top of the em square.
+
+    - `hanging` - The text baseline is the hanging baseline.
+
+    - `middle` - The text baseline is the middle of the em square.
+
+    - `alphabetic` - The text baseline is the normal alphabetic baseline. Default value.
+
+    - `ideographic` - The text baseline is the ideographic baseline; this is the bottom of the body of the characters, if the main body of characters protrudes beneath the alphabetic baseline.
+
+    - `bottom` - The text baseline is the bottom of the bounding box. This differs from the ideographic baseline in that the ideographic baseline doesn't consider descenders. 
 ```javascript
 ctx.textBaseline = "top" || "hanging" || "middle" || "alphabetic" || "ideographic" || "bottom";
 ```
--	direction (*Experimental*)
+
+-	`direction` (*Experimental*) - specifies the current text direction used to draw text. 
+    - `ltr` - The text direction is left-to-right.
+    - `rtl` - The text direction is right-to-left.
+    - `inherit` - The text direction is inherited from the &lt;canvas&gt; element or the Document as appropriate. Default value. 
 ```javascript
 ctx.direction = "ltr" || "rtl" || "inherit";
 ```
@@ -210,7 +229,6 @@ function draw() {
   var text = ctx.measureText('foo'); // TextMetrics object
   text.width; // 16;
 }
-
 ```
 
 ## Source
