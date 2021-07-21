@@ -5,21 +5,21 @@
 
 ## Terminology
 ### The Anatomy of a Typeface
-`Ascender` - The portion of a letter that extends above the mean line of a font -- i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)
+`Ascender` - The portion of a letter that extends above the mean line of a font -- i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.) _(`5`)_
 
-`Baseline` - The line where the letters sit.
+`Baseline` - The line where the letters sit. _(`5`)_
 
-`Bowl` - The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’. (In the case, it is that round shape sticking off the letter ‘a’.)
+`Bowl` - The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’. (In the case, it is that round shape sticking off the letter ‘a’.) _(`5`)_
 
-`Cap height` - The distance from the baseline to the top of the capital letter.
+`Cap height` - The distance from the baseline to the top of the capital letter. _(`5`)_
 
-`Cross` bar - The bar that goes across the inside of the letter and connects one side to another. (In this case, it is the bar inside the capital letter 'B’.)
+`Cross bar` - The bar that goes across the inside of the letter and connects one side to another. (In this case, it is the bar inside the capital letter 'B’.) _(`5`)_
 
-`Counter` - The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’.
+`Counter` - The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’. _(`5`)_
 
-`Descender` - The longest point on a letter that falls beyond the baseline.
+`Descender` - The longest point on a letter that falls beyond the baseline. _(`5`)_
 
-`Finial` - The tapered end of letters such as ‘e’ or ‘c’.
+`Finial` - The tapered end of letters such as ‘e’ or ‘c’. _(`5`)_
 
 `Hierarchy` – is used to guide the reader’s eye to whatever is most important. In other words, it shows them where to begin and where to go next using different levels of emphasis.
 
@@ -27,19 +27,19 @@
 
 `Leading` – is the space between lines of text, also known as line spacing.
 
-`Ligature` - The stroke that joins adjacent letters.
+`Ligature` - The stroke that joins adjacent letters. _(`5`)_
 
-`Serif` - The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.)
+`Serif` - The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.) _(`5`)_
 
-`Spine` - The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface.
+`Spine` - The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface. _(`5`)_
 
-`Stem` - The base of a letter, like the stem of a flower.
+`Stem` - The base of a letter, like the stem of a flower. _(`5`)_
 
 `Tracking` – is the overall space between characters, sometimes called character spacing.
 
-`Terminal` - A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’.
+`Terminal` - A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’. _(`5`)_
 
-`X-height` - Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)
+`X-height` - Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.) _(`5`)_
 
 ### Common Font Classification Types
 `Type Families` - “type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface.
@@ -154,7 +154,7 @@ font-family:
   - Animatable: `yes`
 
 - `startOffset` - How far the beginning of the text should be offset from the beginning of the path.
-  - Value type: &lt;`length`&gt; | &lt;`percentage`&gt; &lt;`number`&gt; 
+  - Value type: &lt;`length`&gt; | &lt;`percentage`&gt; &lt;`number`&gt;;
   - Default value: `0`;
   - Animatable: `yes`
 
@@ -242,14 +242,14 @@ function draw() {
 ```
 
 ## Source
-[Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/ ), GCF LearnFree.org
+[Beginning Graphic Design: Typography](https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/ ), GCF LearnFree.org _(`1`)_
 
-[Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial), MDN Web Docs
+[Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial), MDN Web Docs _(`2`)_
 
-[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial), MDN Web Docs
+[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial), MDN Web Docs _(`3`)_
 
-[Typography Essentials, 100 Design Principles for Working with Type](https://www.goodreads.com/book/show/6832833-typography-essentials), Ina Saltz
+[Typography Essentials, 100 Design Principles for Working with Type](https://www.goodreads.com/book/show/6832833-typography-essentials), Ina Saltz _(`4`)_
 
-[Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics](https://blog.hubspot.com/marketing/typography-terms-introduction), Britany Leaning @bleaning 
+[Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics](https://blog.hubspot.com/marketing/typography-terms-introduction), Britany Leaning @bleaning _(`5`)_
 
-[Web Typography](http://smad.jmu.edu/shen/webtype/baseline.html), Yvette Shen 2012
+[Web Typography](http://smad.jmu.edu/shen/webtype/baseline.html), Yvette Shen 2012 _(`6`)_
