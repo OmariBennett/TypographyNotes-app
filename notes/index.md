@@ -49,16 +49,16 @@
 -	Blackletter
 -	All-caps
 -	Plain Fancy
-- _*_ When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.
+- _`*`_ When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.
 
-`San serif` – fonts do not have that extra stroke-hence the name, which is French for “without serif”. _*_ This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.
+`San serif` – fonts do not have that extra stroke-hence the name, which is French for “without serif”. _`*`_ This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.
 
-`Serif` – fonts have little strokes called serifs attached to the main part of the letter. _*_ Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.
+`Serif` – fonts have little strokes called serifs attached to the main part of the letter. _`*`_ Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.
 
 ## Typography Essentials
 `Using letter as form` – Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit.
 
-`Using counter spaces as form` – The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements. *Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure.
+`Using counter spaces as form` – The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements. _`*`_ Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure.
 
 `Letterform details` – Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message.
 
@@ -72,7 +72,7 @@
 
 ## Typography Code Basics Essentials
 ### CSS
-`Kerning` – is the space between specific characters. *Some fonts have what we call bad kerning, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else.
+`Kerning` – is the space between specific characters. _`*`_ Some fonts have what we call bad kerning, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else.
 ```css
 CSS rule { letter-spacing: 1rem; }
 ```
@@ -160,8 +160,8 @@ font-family:
 
 - `textLength` - The width of the space into which the text will render.
    - Value type: &lt;`length`&gt; | &lt;`percentage`&gt; | &lt;`number`&gt;; 
-   - Default value: auto;
-   - Animatable: yes 
+   - Default value: `auto`;
+   - Animatable: `yes` 
 ```html
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 
@@ -214,17 +214,11 @@ ctx.textAlign = "left" || "right" || "center" || "start" || "end";
 ```
 
 -	`textBaseline` - specifies the current text baseline used when drawing text.
-
     - `top` - The text baseline is the top of the em square.
-
     - `hanging` - The text baseline is the hanging baseline.
-
     - `middle` - The text baseline is the middle of the em square.
-
     - `alphabetic` - The text baseline is the normal alphabetic baseline. Default value.
-
     - `ideographic` - The text baseline is the ideographic baseline; this is the bottom of the body of the characters, if the main body of characters protrudes beneath the alphabetic baseline.
-
     - `bottom` - The text baseline is the bottom of the bounding box. This differs from the ideographic baseline in that the ideographic baseline doesn't consider descenders. 
 ```javascript
 ctx.textBaseline = "top" || "hanging" || "middle" || "alphabetic" || "ideographic" || "bottom";
