@@ -3,75 +3,143 @@
     {
       "term": "ascender",
       "definition": "The portion of a letter that extends above the mean line of a font",
-      "additional_info": "i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)" 
+      "additional_info": "i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)" ,
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "baseline",
-      "definition": "The line where the letters sit."
+      "definition": "The line where the letters sit.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "bowl",
       "definition": "The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’.",
-      "additional_info": "In the case, it is that round shape sticking off the letter ‘a’." 
+      "additional_info": "In the case, it is that round shape sticking off the letter ‘a’." ,
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "cap height",
-      "definition": "The distance from the baseline to the top of the capital letter."
+      "definition": "The distance from the baseline to the top of the capital letter.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "cross bar",
       "definition": "The bar that goes across the inside of the letter and connects one side to another.",
-      "additional_info": "In this case, it is the bar inside the capital letter 'B’." 
+      "additional_info": "In this case, it is the bar inside the capital letter 'B’." ,
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "counter",
-      "definition": "The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’."
+      "definition": "The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "descender",
-      "definition": "The longest point on a letter that falls beyond the baseline."
+      "definition": "The longest point on a letter that falls beyond the baseline.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "finial",
-      "definition": "The tapered end of letters such as ‘e’ or ‘c’."
+      "definition": "The tapered end of letters such as ‘e’ or ‘c’.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "hierarchy",
-      "definition": "is used to guide the reader’s eye to whatever is most important. In other words, it shows them where to begin and where to go next using different levels of emphasis."
+      "definition": "is used to guide the reader’s eye to whatever is most important. In other words, it shows them where to begin and where to go next using different levels of emphasis.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "kerning",
       "definition": "is the space between specific characters.",
-      "additional_info": "Some fonts have what we call `bad kerning`, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else." 
+      "additional_info": "Some fonts have what we call `bad kerning`, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else." ,
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "leading",
-      "definition": "is the space between lines of text, also known as line spacing."
+      "definition": "is the space between lines of text, also known as line spacing.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "ligature",
-      "definition": "The stroke that joins adjacent letters."
+      "definition": "The stroke that joins adjacent letters.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "serif",
       "definition": "The slight projection finishing off a stroke of a letter in certain typefaces.",
-      "additional_info": "In this case, it is that little foot sticking off the letter ‘l’." 
+      "additional_info": "In this case, it is that little foot sticking off the letter ‘l’." ,
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "spine",
-      "definition": "The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface."
+      "definition": "The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "stem",
-      "definition": "The base of a letter, like the stem of a flower."
+      "definition": "The base of a letter, like the stem of a flower.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "tracking",
-      "definition": "is the overall space between characters, sometimes called character spacing."
+      "definition": "is the overall space between characters, sometimes called character spacing.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "terminal",
-      "definition": "A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’"
+      "definition": "A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     },
     {
       "term": "typography",
@@ -81,7 +149,11 @@
     {
       "term": "x-height",
       "definition": "Located in between the baseline and the cap height, it is the height of the body of the lowercase letter.",
-      "additional_info": "In this case, it is the letters ‘a’, ’u’, and ‘y’."
+      "additional_info": "In this case, it is the letters ‘a’, ’u’, and ‘y’.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     }
   ],
   "classification": [
@@ -89,53 +161,97 @@
       "term": "display",
       "definition": "Because of their decorative nature, display fonts are best for small amounts of text; for example, title and herders, and more graphic-heavy designs.",
       "additional_info": "When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
-      "example": [ "Script", "Blackletter", "All-caps", "Plain Fancy" ]
+      "example": [ "Script", "Blackletter", "All-caps", "Plain Fancy" ],
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "serif",
       "definition": "fonts do not have that extra stroke-hence the name, which is French for “without serif”.",
-      "additional_info": "This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets."
+      "additional_info": "This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "san serif",
       "definition": "fonts have little strokes called serifs attached to the main part of the letter.",
-      "additional_info": "Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers."
+      "additional_info": "Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "type families",
-      "definition": "“type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface."
+      "definition": "“type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface.",
+      "source": {
+        "name": "Typography Tutorial for Beginner: Everything You Need to Learn Typography Basics, Britany Leaning @bleaning",
+        "href": "https://blog.hubspot.com/marketing/typography-terms-introduction"
+      }
     }
   ],
   "essentials": [
     {
       "term": "Combining fonts",
       "definition": "When deciding which fonts to use, less is more. It's best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
-      "additional_info": "You've probably heard that opposites attract."
+      "additional_info": "You've probably heard that opposites attract.",
+      "source": {
+        "name": "Beginning Graphic Design: Typography, GCF LearnFree.org",
+        "href": "https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/"
+      }
     },
     {
       "term": "Emotional content implied by the text",
-      "definition": "Letterforms can amplify the emotional weight of the text. *The delicate tracery of a flowing italic might best convey a poem about nature."
+      "definition": "Letterforms can amplify the emotional weight of the text. *The delicate tracery of a flowing italic might best convey a poem about nature.",
+      "source": {
+        "name": "Typography Essentials, 100 Design Principles for Working with Type, Ina Saltz",
+        "href": "https://www.goodreads.com/book/show/6832833-typography-essentials"
+      }
     },
     {
       "term": "Historical connotation",
-      "definition": "typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible."
+      "definition": "typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible.",
+      "source": {
+        "name": "Typography Essentials, 100 Design Principles for Working with Type, Ina Saltz",
+        "href": "https://www.goodreads.com/book/show/6832833-typography-essentials"
+      }
     },
     {
       "term": "Letterform details",
-      "definition": "Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message."
+      "definition": "Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message.",
+      "source": {
+        "name": "Typography Essentials, 100 Design Principles for Working with Type, Ina Saltz",
+        "href": "https://www.goodreads.com/book/show/6832833-typography-essentials"
+      }
     },
     {
       "term": "Using counter spaces as form",
       "definition": "The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements.",
-      "additional_info": "Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure."
+      "additional_info": "Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure.",
+      "source": {
+        "name": "Typography Essentials, 100 Design Principles for Working with Type, Ina Saltz",
+        "href": "https://www.goodreads.com/book/show/6832833-typography-essentials"
+      }
     },
     {
       "term": "Using letter as form",
-      "definition": "Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit."
+      "definition": "Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit.",
+      "source": {
+        "name": "Typography Essentials, 100 Design Principles for Working with Type, Ina Saltz",
+        "href": "https://www.goodreads.com/book/show/6832833-typography-essentials"
+      }
     },
-    {"term": "Vertical Rhythm",
-      "definition": "Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size."
+    {
+      "term": "Vertical Rhythm",
+      "definition": "Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size.",
+      "source": {
+        "name": "Web Typography, Yvette Shen 2012",
+        "href": "http://smad.jmu.edu/shen/webtype/baseline.html"
+      }
     }
-
   ]
 }
