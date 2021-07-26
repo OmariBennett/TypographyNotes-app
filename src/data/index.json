@@ -108,17 +108,9 @@
   ],
   "essentials": [
     {
-      "term": "Using letter as form",
-      "definition": "Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit."
-    },
-    {
-      "term": "Using counter spaces as form",
-      "definition": "The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements.",
-      "additional_info": "Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure."
-    },
-    {
-      "term": "Letterform details",
-      "definition": "Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message."
+      "term": "Combining fonts",
+      "definition": "When deciding which fonts to use, less is more. It's best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
+      "additional_info": "You've probably heard that opposites attract."
     },
     {
       "term": "Emotional content implied by the text",
@@ -129,13 +121,21 @@
       "definition": "typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible."
     },
     {
-      "term": "Vertical Rhythm",
-      "definition": "Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size."
+      "term": "Letterform details",
+      "definition": "Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message."
     },
     {
-      "term": "Combining fonts",
-      "definition": "When deciding which fonts to use, less is more. It's best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
-      "additional_info": "You've probably heard that opposites attract."
+      "term": "Using counter spaces as form",
+      "definition": "The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements.",
+      "additional_info": "Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure."
+    },
+    {
+      "term": "Using letter as form",
+      "definition": "Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit."
+    },
+    {"term": "Vertical Rhythm",
+      "definition": "Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size."
     }
+
   ]
 }
