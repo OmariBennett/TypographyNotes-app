@@ -2,34 +2,47 @@
   "terminology": [
     {
       "term": "ascender",
-      "definition": "The portion of a letter that extends above the mean line of a font -- i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)"
+      "definition": "The portion of a letter that extends above the mean line of a font",
+      "additional_info": "i.e., is taller than the font's x-height. (In this case, you will also notice the letter ‘h’ is taller than the x-height.)" 
     },
-    {"term": "baseline",
+    {
+      "term": "baseline",
       "definition": "The line where the letters sit."
     },
-    {"term": "bowl",
-      "definition": "The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’. (In the case, it is that round shape sticking off the letter ‘a’.)"
+    {
+      "term": "bowl",
+      "definition": "The curved part of the character that encloses the circular or curved parts of some letters, like ‘d’, ‘b’, ‘o’, ‘d’, and ‘b’.",
+      "additional_info": "In the case, it is that round shape sticking off the letter ‘a’." 
     },
-    {"term": "cap height",
+    {
+      "term": "cap height",
       "definition": "The distance from the baseline to the top of the capital letter."
     },
-    {"term": "cross bar",
-      "definition": "The bar that goes across the inside of the letter and connects one side to another. (In this case, it is the bar inside the capital letter 'B’.)"
+    {
+      "term": "cross bar",
+      "definition": "The bar that goes across the inside of the letter and connects one side to another.",
+      "additional_info": "In this case, it is the bar inside the capital letter 'B’." 
     },
-    {"term": "counter",
+    {
+      "term": "counter",
       "definition": "The empty space in the middle of letters such as ‘B’, ‘O’, or ‘A’."
     },
-    {"term": "descender",
+    {
+      "term": "descender",
       "definition": "The longest point on a letter that falls beyond the baseline."
     },
-    {"term": "finial",
+    {
+      "term": "finial",
       "definition": "The tapered end of letters such as ‘e’ or ‘c’."
     },
-    {"term": "hierarchy",
+    {
+      "term": "hierarchy",
       "definition": "is used to guide the reader’s eye to whatever is most important. In other words, it shows them where to begin and where to go next using different levels of emphasis."
     },
-    {"term": "kerning",
-      "definition": "is the space between specific characters. *Some fonts have what we call `bad kerning`, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else."
+    {
+      "term": "kerning",
+      "definition": "is the space between specific characters.",
+      "additional_info": "Some fonts have what we call `bad kerning`, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else." 
     },
     {
       "term": "leading",
@@ -41,7 +54,8 @@
     },
     {
       "term": "serif",
-      "definition": "The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.)"
+      "definition": "The slight projection finishing off a stroke of a letter in certain typefaces.",
+      "additional_info": "In this case, it is that little foot sticking off the letter ‘l’." 
     },
     {
       "term": "spine",
@@ -60,38 +74,69 @@
       "definition": "A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’"
     },
     {
-      "term": "x-height",
-      "definition": "Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)"
+      "term": "typography",
+      "definition": "style or appearance of text",
+      "additional_info": "the art of working with text"
     },
     {
-      "term": "....",
-      "definition": "...."
+      "term": "x-height",
+      "definition": "Located in between the baseline and the cap height, it is the height of the body of the lowercase letter.",
+      "additional_info": "In this case, it is the letters ‘a’, ’u’, and ‘y’."
     }
   ],
   "classification": [
     {
       "term": "display",
       "definition": "Because of their decorative nature, display fonts are best for small amounts of text; for example, title and herders, and more graphic-heavy designs.",
-      "sub-definition": "When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
+      "additional_info": "When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
       "example": [ "Script", "Blackletter", "All-caps", "Plain Fancy" ]
     },
     {
       "term": "serif",
       "definition": "fonts do not have that extra stroke-hence the name, which is French for “without serif”.",
-      "sub-definition": "This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets."
+      "additional_info": "This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets."
     },
     {
       "term": "san serif",
       "definition": "fonts have little strokes called serifs attached to the main part of the letter.",
-      "sub-definition": "Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers."
+      "additional_info": "Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers."
     },
     {
       "term": "type families",
       "definition": "“type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface."
+    }
+  ],
+  "essentials": [
+    {
+      "term": "Using letter as form",
+      "definition": "Each letter is a shape unto itself, a shape that may serve as an illustration, as an icon, as a vessel, or as a graphic focal point, apart from its meaning as an alphabetic unit."
     },
     {
-      "term": "....",
-      "definition": "...."
+      "term": "Using counter spaces as form",
+      "definition": "The space inside and around the shape of a letter, called counter spaces, are often overlooked as design elements.",
+      "additional_info": "Their shapes can be customized using color, pattern, or texture. The beauty of counter spaces, sometimes called “negative” spaces, is that they are the jewels that are already tucked into the letters… using them well is like discovering buried treasure."
+    },
+    {
+      "term": "Letterform details",
+      "definition": "Specialized detailing can communicate apart from the literal message; whether customized or built in as alternate character within a typeface, even a simple swash or ligature can add an extra level of meaning or make the design more specific to the message."
+    },
+    {
+      "term": "Emotional content implied by the text",
+      "definition": "Letterforms can amplify the emotional weight of the text. *The delicate tracery of a flowing italic might best convey a poem about nature."
+    },
+    {
+      "term": "Historical connotation",
+      "definition": "typefaces area product of their era. A good design may be well served with a historically appropriate typeface choice when possible."
+    },
+    {
+      "term": "Vertical Rhythm",
+      "definition": "Improves readability and helps to make the layout harmonious and organized. Vertical Rhythm on the web is contributed to by font-size, line-height, and margin size."
+    },
+    {
+      "term": "Combining fonts",
+      "definition": "When deciding which fonts to use, less is more. It's best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
+      "additional_info": "You've probably heard that opposites attract."
     }
   ]
+  
 }

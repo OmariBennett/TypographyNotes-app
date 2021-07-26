@@ -86,6 +86,7 @@ CSS rule { line-height: 1.2; }
 ```css
 CSS rule { word-spacing: 1rem; }
 ```
+
 ### SVG
 `SVG` - An essential part of a text is the font in which it is displayed. SVG offers a set of attributes, many like their CSS counterparts, to enable font selection. _(`3`)_
 ```html
