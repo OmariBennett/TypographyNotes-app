@@ -32,36 +32,62 @@
       "definition": "is the space between specific characters. *Some fonts have what we call `bad kerning`, making certain letters look improperly spaced. If a font you are using has bad kerning, it is best to cut your losses and choose something else."
     },
     {
-      "term": "Leading",
+      "term": "leading",
       "definition": "is the space between lines of text, also known as line spacing."
     },
     {
-      "term": "Ligature",
+      "term": "ligature",
       "definition": "The stroke that joins adjacent letters."
     },
     {
-      "term": "Serif",
+      "term": "serif",
       "definition": "The slight projection finishing off a stroke of a letter in certain typefaces. (In this case, it is that little foot sticking off the letter ‘l’.)"
     },
     {
-      "term": "Spine",
+      "term": "spine",
       "definition": "The curvy body of the letter 's' -- and only the letter ’s’. It gets its own term because the spine can be almost vertical or mostly horizontal, depending on the typeface."
     },
     {
-      "term": "Stem",
+      "term": "stem",
       "definition": "The base of a letter, like the stem of a flower."
     },
     {
-      "term": "Tracking",
+      "term": "tracking",
       "definition": "is the overall space between characters, sometimes called character spacing."
     },
     {
-      "term": "Terminal",
+      "term": "terminal",
       "definition": "A type of curve that you see at the top of the letter ‘f’ or the end of the letter ‘j’"
     },
     {
-      "term": "X-height",
+      "term": "x-height",
       "definition": "Located in between the baseline and the cap height, it is the height of the body of the lowercase letter. (In this case, it is the letters ‘a’, ’u’, and ‘y’.)"
+    },
+    {
+      "term": "....",
+      "definition": "...."
+    }
+  ],
+  "classification": [
+    {
+      "term": "display",
+      "definition": "Because of their decorative nature, display fonts are best for small amounts of text; for example, title and herders, and more graphic-heavy designs.",
+      "sub-definition": "When deciding which fonts to use, less is more. It is best to limit yourself to one or two per project. If you need more contrast, try repeating one of your fonts in a different size, weight, or style.",
+      "example": [ "Script", "Blackletter", "All-caps", "Plain Fancy" ]
+    },
+    {
+      "term": "serif",
+      "definition": "fonts do not have that extra stroke-hence the name, which is French for “without serif”.",
+      "sub-definition": "This style is considered cleaner and more modern than serif fonts. Also, it tends to be easier to read on computer screens, including smartphones and tablets."
+    },
+    {
+      "term": "san serif",
+      "definition": "fonts have little strokes called serifs attached to the main part of the letter.",
+      "sub-definition": "Because of their classic look, they are a good choice for more traditional projects. They are also common in print publications, like magazines and newspapers."
+    },
+    {
+      "term": "type families",
+      "definition": "“type family” or “typeface family” is used to describe a range of designs that are all variations of one basic typeface."
     },
     {
       "term": "....",
